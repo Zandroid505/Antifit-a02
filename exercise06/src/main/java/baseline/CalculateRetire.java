@@ -5,7 +5,7 @@ import java.time.Year;
 public class CalculateRetire {
     private int userAge;
     private int retireAge;
-    private static final int CURRENT_YEAR = Year.now().getValue();
+    private final int CURRENT_YEAR = Year.now().getValue();
 
     public CalculateRetire(int userAge, int retireAge) {
         this.userAge = userAge;

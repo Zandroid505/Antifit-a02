@@ -25,19 +25,24 @@ public class Solution08 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         PizzaCalculations party1 = new PizzaCalculations();
+        int numPeople;
+        int numPizzas;
+        int slicesPerPizza;
 
         party1.howManyPeople();
-        party1.setNumPeople(party1.stringToInt(input.nextLine()));
+        numPeople = Integer.parseInt(input.nextLine());
+        party1.setNumPeople(numPeople);
 
         party1.howManyPizzas();
-        party1.setNumPizzas(party1.stringToInt(input.nextLine()));
+        numPizzas = Integer.parseInt(input.nextLine());
+        party1.setNumPizzas(numPizzas);
 
         party1.howManySlicesPerPizza();
-        party1.setSlicesPerPizza(party1.stringToInt(input.nextLine()));
+        slicesPerPizza = Integer.parseInt(input.nextLine());
+        party1.setSlicesPerPizza(slicesPerPizza);
 
         party1.partyTotal();
         party1.pizzaDivision();
-
 
     }
 }

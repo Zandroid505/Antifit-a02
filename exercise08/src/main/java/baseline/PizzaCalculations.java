@@ -15,10 +15,6 @@ public class PizzaCalculations {
         System.out.print("How many people? ");
     }
 
-    public int stringToInt(String userInput) {
-        return(Integer.parseInt(userInput));
-    }
-
     public void setNumPeople(int numPeople) {
         this.numPeople = numPeople;
     }
