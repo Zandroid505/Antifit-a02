@@ -51,8 +51,6 @@ public class Solution10 {
             itemList[i].calculateTotalItemPrice();
         }
 
-        itemList[2].calculateTax();
-        itemList[2].calculateShopTotal();
         output.printOutput(itemList[2]);
     }
 }

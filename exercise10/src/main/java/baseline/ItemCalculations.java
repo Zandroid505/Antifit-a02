@@ -6,7 +6,6 @@ public class ItemCalculations {
     private double itemTotalPrice;
     private static double subtotal = 0;
     private static double tax = 0;
-    private static double shoppingTotal = 0;
     private static final double TAX_RATE = 0.055;
 
 
@@ -33,15 +32,13 @@ public class ItemCalculations {
         return subtotal;
     }
 
-    public double calculateTax() {
+    public static double calculateTax() {
         tax = subtotal * TAX_RATE;
 
         return tax;
     }
 
-    public double calculateShopTotal() {
-        shoppingTotal = subtotal + tax;
-
-        return shoppingTotal;
+    public static double calculateShopTotal() {
+        return (subtotal + tax);
     }
 }
