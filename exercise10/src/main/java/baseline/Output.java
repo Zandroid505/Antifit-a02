@@ -11,9 +11,9 @@ public class Output {
         System.out.printf("Enter the quantity of item %d: ", currentItem);
     }
 
-    public void printOutput(ItemCalculations itemsFinal) {
-        System.out.printf("Subtotal: $%.2f%n", itemsFinal.getSubtotal());
-        System.out.printf("Tax: $%.2f%n", itemsFinal.calculateTax());
-        System.out.printf("Total: $%.2f%n", itemsFinal.calculateShopTotal());
+    public void printOutput(ItemCalculations[] itemList) {
+        System.out.printf("Subtotal: $%.2f%n", itemList.getSubtotal());
+        System.out.printf("Tax: $%.2f%n", itemList.calculateTax());
+        System.out.printf("Total: $%.2f%n", itemList.calculateShopTotal());
     }
 }

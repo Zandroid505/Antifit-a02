@@ -4,16 +4,14 @@ public class ItemCalculations {
     private double itemPrice;
     private int itemQuantity;
     private double itemTotalPrice;
-    private static double subtotal = 0;
-    private static double tax = 0;
+    private static double subtotal;
     private static final double TAX_RATE = 0.055;
-
-
 
     public ItemCalculations() {
         this.itemPrice = 0;
         this.itemQuantity = 0;
         this.itemTotalPrice = 0;
+        subtotal = 0;
     }
 
     public void setItemPrice(double itemPrice) {
@@ -32,13 +30,11 @@ public class ItemCalculations {
         return subtotal;
     }
 
-    public static double calculateTax() {
-        tax = subtotal * TAX_RATE;
-
-        return tax;
+    public double calculateTax() {
+        return (subtotal * TAX_RATE);
     }
 
-    public static double calculateShopTotal() {
-        return (subtotal + tax);
+    public double calculateShopTotal() {
+        return (subtotal + calculateTax());
     }
 }

@@ -51,6 +51,6 @@ public class Solution10 {
             itemList[i].calculateTotalItemPrice();
         }
 
-        output.printOutput(itemList[2]);
+        output.printOutput(itemList);
     }
 }
