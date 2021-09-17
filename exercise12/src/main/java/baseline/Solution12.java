@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Zakaria Antifit
+ */
+
 package baseline;
 
 import java.util.Scanner;
@@ -30,6 +35,7 @@ public class Solution12 {
         accountOwner.setYears(Integer.parseInt(input.nextLine()));
 
 
-        System.out.printf("After %d years at %.2f%%, the investment will be worth $%.2f", accountOwner.getYears(), accountOwner.getInterestRate(), accountOwner.CalculateAmountFinalAndRound());
+        System.out.printf("After %d years at %.2f%%, the investment will be worth $%.2f", accountOwner.getYears(),
+                    accountOwner.getInterestRate(), accountOwner.CalculateAmountFinalAndRound());
     }
 }
