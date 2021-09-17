@@ -3,7 +3,7 @@ package baseline;
 import java.util.Scanner;
 
 public class UserInput {
-    Scanner input = new Scanner(System.in);
+    private static final Scanner input = new Scanner(System.in);
     private double euros;
     private double exchangeRate;
 
