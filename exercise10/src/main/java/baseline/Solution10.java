@@ -35,22 +35,34 @@ public class Solution10 {
      * print "Total: $'total'
      */
     public static void main(String[] args) {
-        ItemCalculations[] itemList = new ItemCalculations[3];
+        ItemCalculations item1 = new ItemCalculations();
+        ItemCalculations item2 = new ItemCalculations();
+        ItemCalculations item3 = new ItemCalculations();
         Output output = new Output();
         UserInput input = new UserInput();
+        double subtotal = 0;
 
-        for(int i = 0; i < 3; i++) {
-            itemList[i] = new ItemCalculations();
+        output.pricePrompt(1);      //Item 1
+        item1.setItemPrice(input.scanPrice());
 
-            output.pricePrompt(i+1);
-            itemList[i].setItemPrice(input.scanPrice());
+        output.quantityPrompt(1);
+        item1.setItemQuantity(input.scanQuantity());
+        subtotal += item1.calculateTotalItemPrice();
 
-            output.quantityPrompt(i+1);
-            itemList[i].setItemQuantity(input.scanQuantity());
+        output.pricePrompt(2);     //Item2
+        item1.setItemPrice(input.scanPrice());
 
-            itemList[i].calculateTotalItemPrice();
-        }
+        output.quantityPrompt(2);
+        item1.setItemQuantity(input.scanQuantity());
+        subtotal += item1.calculateTotalItemPrice();
 
-        output.printOutput(itemList);
+        output.pricePrompt(3);      //Item3
+        item1.setItemPrice(input.scanPrice());
+
+        output.quantityPrompt(3);
+        item1.setItemQuantity(input.scanQuantity());
+        subtotal += item1.calculateTotalItemPrice();
+
+        output.printOutput(subtotal, item3);
     }
 }
