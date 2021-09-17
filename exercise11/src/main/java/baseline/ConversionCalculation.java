@@ -21,10 +21,13 @@ public class ConversionCalculation {
 
     public double calculateUSDollars() {
         this.usDollars = this.euros * this.exchangeRate;
-        this.usDollars *= 100;      //Rounds decimal up one cent
 
-        this.usDollars += 0.5;
-        this.usDollars /= 100;
+        //Rounds decimal up one cent if fractional
+        if (this.usDollars >= (this.usDollars + 0.001)) {
+            this.usDollars *= 100;
+            this.usDollars += 0.5;
+            this.usDollars /= 100;
+        }
 
         return(this.usDollars);
     }
