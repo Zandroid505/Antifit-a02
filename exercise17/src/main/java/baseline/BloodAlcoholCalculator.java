@@ -10,7 +10,7 @@ public class BloodAlcoholCalculator {
     private double weight;
     private int hoursSinceLastDrink;
     private double bac;
-    private static final String NON_NUMERIC_INPUT_MESSAGE = "Input was not a numeric value.";
+    private static final String NON_NUMERIC_INPUT_MESSAGE = "Input was not a numeric value. Enter a numerical Value.";
 
     public BloodAlcoholCalculator() {
         this.sex = 0;
@@ -22,11 +22,13 @@ public class BloodAlcoholCalculator {
     }
 
     public void scanSex() {
-        System.out.print("Enter a 1 is you are male or a 2 if you are female: ");
-        try {
-            this.sex = Integer.parseInt(input.nextLine());
-        }catch(NumberFormatException e) {
-            System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+        while(this.sex == 0) {
+            System.out.print("Enter a 1 is you are male or a 2 if you are female: ");
+            try {
+                this.sex = Integer.parseInt(input.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+            }
         }
     }
 
@@ -39,29 +41,35 @@ public class BloodAlcoholCalculator {
     }
 
     public void scanAmntAlcohol() {
-        System.out.print("How many ounces of alcohol did you have? ");
-        try {
-            this.amntAlcohol = Double.parseDouble(input.nextLine());
-        }catch(NumberFormatException e) {
-            System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+        while(this.amntAlcohol == 0) {
+            System.out.print("How many ounces of alcohol did you have? ");
+            try {
+                this.amntAlcohol = Double.parseDouble(input.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+            }
         }
     }
 
     public void scanWeight() {
-        System.out.print("What is your weight, in pounds? ");
-        try {
-            this.weight = Double.parseDouble(input.nextLine());
-        }catch(NumberFormatException e) {
-            System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+        while(this.weight == 0) {
+            System.out.print("What is your weight, in pounds? ");
+            try {
+                this.weight = Double.parseDouble(input.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+            }
         }
     }
 
     public void scanHoursSinceLastDrink() {
-        System.out.print("How many hours has it been since your last drink? ");
-        try {
-            this.hoursSinceLastDrink = Integer.parseInt(input.nextLine());
-        }catch(NumberFormatException e) {
-            System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+        while(this.hoursSinceLastDrink == 0) {
+            System.out.print("How many hours has it been since your last drink? ");
+            try {
+                this.hoursSinceLastDrink = Integer.parseInt(input.nextLine());
+            } catch (NumberFormatException e) {
+                System.out.println(NON_NUMERIC_INPUT_MESSAGE);
+            }
         }
     }
 
