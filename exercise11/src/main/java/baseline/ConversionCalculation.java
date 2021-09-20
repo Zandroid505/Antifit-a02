@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Zakaria Antifit
+ */
+
 package baseline;
 
 public class ConversionCalculation {
@@ -23,11 +28,10 @@ public class ConversionCalculation {
         this.usDollars = this.euros * this.exchangeRate;
 
         //Rounds decimal up one cent if fractional
-        if (this.usDollars >= (this.usDollars + 0.001)) {
             this.usDollars *= 100;
             this.usDollars += 0.5;
-            this.usDollars /= 100;
-        }
+            this.usDollars = this.usDollars / 100;
+
 
         return(this.usDollars);
     }

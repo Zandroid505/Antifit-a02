@@ -8,6 +8,7 @@ package baseline;
 import java.util.Scanner;
 
 public class Solution09 {
+    private static final Scanner input = new Scanner(System.in);
     /*
      * print "What is the length of your ceiling?"
      * 'length' = userInput (convert string to int)
@@ -21,7 +22,6 @@ public class Solution09 {
      * print "You will need to purchase 'gallonsNeeded' gallons of paint to cover 'area' square feet."
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         PaintCalculation painter1 = new PaintCalculation();
 
         painter1.askForLength();

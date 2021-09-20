@@ -8,6 +8,7 @@ package baseline;
 import java.util.Scanner;
 
 public class Solution07 {
+    private static final Scanner input = new Scanner(System.in);
     /*
      * print "What is the length of the room in feet?"
      * 'length' = userInput (convert string to double)
@@ -22,7 +23,6 @@ public class Solution07 {
      * print "'areaMeters' square meters
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         double length;
         double width;
 

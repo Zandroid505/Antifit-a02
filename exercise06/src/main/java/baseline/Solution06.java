@@ -8,6 +8,7 @@ package baseline;
 import java.util.Scanner;
 
 public class Solution06 {
+    private static final Scanner input = new Scanner(System.in);
     /*
      * print "What is your current age?"
      * 'userAge' = userInput (convert from string to int)
@@ -20,7 +21,6 @@ public class Solution06 {
      * print "It's 'currentYear', so you can retire in 'retireYear'
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         int userAge;
         int retireAge;
 

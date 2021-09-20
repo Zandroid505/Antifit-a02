@@ -8,6 +8,7 @@ package baseline;
 import java.util.Scanner;
 
 public class Solution12 {
+    private static final Scanner input = new Scanner(System.in);
     /*
      * Print "Enter the principal: "
      * 'principal' = userInput (string to double)
@@ -22,7 +23,6 @@ public class Solution12 {
      * print "After 'years' years at 'interestRate'%, the investment will be worth $'amountFinal'
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         SimpleInterestCalculations accountOwner = new SimpleInterestCalculations();
 
         System.out.print("Enter the principal: ");

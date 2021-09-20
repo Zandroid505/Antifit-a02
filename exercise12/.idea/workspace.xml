@@ -5,13 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29fb8e9f-7320-4e3f-b99a-90d695e15461" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/java/baseline/CompoundInterestCalculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../exercise13/src/main/java/baseline/Solution13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/3/c/3cba162335743c3972367cd2073df172b6cae8a1" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/3/c/3cba162335743c3972367cd2073df172b6cae8a1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise06/src/main/java/baseline/CalculateRetire.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/src/main/java/baseline/CalculateRetire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise06/src/main/java/baseline/Solution06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/src/main/java/baseline/Solution06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise07/src/main/java/baseline/CalculateArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise07/src/main/java/baseline/CalculateArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise07/src/main/java/baseline/Solution07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise07/src/main/java/baseline/Solution07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise08/.idea/sonarlint/issuestore/2/6/26f8ff3f0b844304baca39e092a1d9a886a7ed73" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise08/.idea/sonarlint/issuestore/2/6/26f8ff3f0b844304baca39e092a1d9a886a7ed73" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise08/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise08/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise08/src/main/java/baseline/PizzaCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise08/src/main/java/baseline/PizzaCalculations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise08/src/main/java/baseline/Solution08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise08/src/main/java/baseline/Solution08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise09/.idea/sonarlint/issuestore/c/6/c652d66decd3f4810e9b4ed96da26f56ec018f18" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise09/.idea/sonarlint/issuestore/c/6/c652d66decd3f4810e9b4ed96da26f56ec018f18" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise09/.idea/sonarlint/issuestore/c/b/cbd26f96b496f7fe5208fa83f2e156c8b58fd664" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise09/.idea/sonarlint/issuestore/c/b/cbd26f96b496f7fe5208fa83f2e156c8b58fd664" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise09/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise09/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise09/src/main/java/baseline/PaintCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise09/src/main/java/baseline/PaintCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise09/src/main/java/baseline/Solution09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise09/src/main/java/baseline/Solution09.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise10/.idea/sonarlint/issuestore/0/d/0ddf56d44dc438037a215fe4780c815c5d733d81" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/.idea/sonarlint/issuestore/0/d/0ddf56d44dc438037a215fe4780c815c5d733d81" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise10/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise10/src/main/java/baseline/ItemCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/src/main/java/baseline/ItemCalculations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise10/src/main/java/baseline/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/src/main/java/baseline/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise10/src/main/java/baseline/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/src/main/java/baseline/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/0/d/0ddf56d44dc438037a215fe4780c815c5d733d81" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/0/d/0ddf56d44dc438037a215fe4780c815c5d733d81" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise11/src/main/java/baseline/ConversionCalculation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/src/main/java/baseline/ConversionCalculation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise11/src/main/java/baseline/Output.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/src/main/java/baseline/Output.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise11/src/main/java/baseline/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/src/main/java/baseline/UserInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/60a6957a3a9c6766c98bf37c2fa3ce63d2081f5e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/d/6d25c921838ec8c09215d2500cb17c915a97f297" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/SimpleInterestCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/SimpleInterestCalculations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise13/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise13/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise20/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise20/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +91,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/baseline/SimpleInterestCalculations.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/baseline/Solution12.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -79,7 +110,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercise10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercise13" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">

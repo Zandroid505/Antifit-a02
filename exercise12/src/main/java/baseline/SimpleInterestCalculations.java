@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Zakaria Antifit
+ */
+
 package baseline;
 
 public class SimpleInterestCalculations {
@@ -40,7 +45,7 @@ public class SimpleInterestCalculations {
         if (this.amountFinal >= (this.amountFinal + 0.001)) {
             this.amountFinal *= 100;
             this.amountFinal += 0.5;
-            this.amountFinal = (int) this.amountFinal / 100;
+            this.amountFinal = this.amountFinal / 100;
         }
 
         return this.amountFinal;

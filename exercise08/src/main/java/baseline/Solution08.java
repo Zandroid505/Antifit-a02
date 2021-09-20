@@ -8,6 +8,7 @@ package baseline;
 import java.util.Scanner;
 
 public class Solution08 {
+    private static final Scanner input = new Scanner(System.in);
     /*
      * print "How many people?"
      * 'numPeople' = userInput (convert string to int)
@@ -23,7 +24,6 @@ public class Solution08 {
      * print "There are 'slicesLeft' leftover pieces."
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
         PizzaCalculations party1 = new PizzaCalculations();
         int numPeople;
         int numPizzas;
@@ -43,6 +43,5 @@ public class Solution08 {
 
         party1.partyTotal();
         party1.pizzaDivision();
-
     }
 }

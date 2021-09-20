@@ -1,6 +1,6 @@
 
-c	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¥´ı
+c	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¥´ı
 X
-java:S21849"BCast one of the operands of this division operation to a "double".(ìã½ù
+java:S2184>"BCast one of the operands of this division operation to a "double".(ìã½ù
 V
-java:S21849"@Cast one of the operands of this integer division to a "double".(ìã½ù
+java:S2184>"@Cast one of the operands of this integer division to a "double".(ìã½ù

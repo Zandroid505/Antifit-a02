@@ -1,9 +1,14 @@
+/*
+ *  UCF COP3330 Fall 2021 Assignment 2 Solution
+ *  Copyright 2021 Zakaria Antifit
+ */
+
 package baseline;
 
 import java.util.Scanner;
 
 public class UserInput {
-    Scanner input = new Scanner(System.in);
+    private static final Scanner input = new Scanner(System.in);
     private double itemPrice;
     private int itemQuantity;
 
